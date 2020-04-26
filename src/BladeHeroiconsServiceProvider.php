@@ -13,7 +13,7 @@ final class BladeHeroiconsServiceProvider extends ServiceProvider
     {
         $this->app->make(Factory::class)->add('heroicons', [
             'path' => __DIR__ . '/../resources/svg',
-            'component-prefix' => 'heroicon',
+            'prefix' => 'heroicon',
         ]);
 
         if ($this->app->runningInConsole()) {
