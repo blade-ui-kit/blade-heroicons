@@ -22,6 +22,7 @@
         "illuminate/support": "^7.6"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
         "orchestra/testbench": "^5.0",
         "phpunit/phpunit": "^8.0|^9.0"
     },
@@ -35,15 +36,20 @@
             "Tests\\": "tests"
         }
     },
-    "config": {
-        "sort-packages": true
-    },
     "extra": {
         "laravel": {
             "providers": [
                 "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "format": [
+            "vendor/bin/php-cs-fixer fix"
+        ]
+    },
+    "config": {
+        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true

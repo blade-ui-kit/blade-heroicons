@@ -1,13 +1,21 @@
 # Blade Heroicons
 
-<a href="https://github.com/blade-ui-kit/blade-heroicons/actions"><img src="https://github.com/blade-ui-kit/blade-heroicons/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons"><img src="https://poser.pugx.org/blade-ui-kit/blade-heroicons/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons"><img src="https://poser.pugx.org/blade-ui-kit/blade-heroicons/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons"><img src="https://poser.pugx.org/blade-ui-kit/blade-heroicons/license.svg" alt="License"></a>
+<a href="https://github.com/blade-ui-kit/blade-heroicons/actions?query=workflow%3ATests">
+    <img src="https://github.com/blade-ui-kit/blade-heroicons/workflows/Tests/badge.svg" alt="Tests">
+</a>
+<a href="https://github.com/blade-ui-kit/blade-heroicons/actions?query=workflow%3A%22Code+Style%22">
+    <img src="https://github.com/blade-ui-kit/blade-heroicons/workflows/Code%20Style/badge.svg" alt="Code Style">
+</a>
+<a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons">
+    <img src="https://poser.pugx.org/blade-ui-kit/blade-heroicons/v/stable.svg" alt="Latest Stable Version">
+</a>
+<a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons">
+    <img src="https://poser.pugx.org/blade-ui-kit/blade-heroicons/d/total.svg" alt="Total Downloads">
+</a>
 
 A package to easily make use of [Heroicons](https://github.com/refactoringui/heroicons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](./resources/svg) or preview them at [heroicons.dev](https://heroicons.dev).
+For a full list of available icons see [the SVG directory](resources/svg) or preview them at [heroicons.dev](https://heroicons.dev).
 
 ## Requirements
 

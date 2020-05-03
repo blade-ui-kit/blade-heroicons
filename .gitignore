@@ -2,3 +2,4 @@ dist/
 composer.lock
 vendor
 .phpunit.result.cache
+.php_cs.cache
