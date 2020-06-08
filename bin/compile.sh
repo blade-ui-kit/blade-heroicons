@@ -8,14 +8,14 @@ RESOURCES=$DIRECTORY/../resources/svg
 
 echo "Compiling outline icons..."
 
-for FILE in $DIST/outline-md/*; do
-  cp $FILE $RESOURCES/o-$(echo ${FILE##*/} | cut -c 4-)
+for FILE in $DIST/outline/*; do
+  cp $FILE $RESOURCES/o-$(echo ${FILE##*/})
 done
 
 echo "Compiling solid icons..."
 
-for FILE in $DIST/solid-sm/*; do
-  cp $FILE $RESOURCES/s-$(echo ${FILE##*/} | cut -c 4-)
+for FILE in $DIST/solid/*; do
+  cp $FILE $RESOURCES/s-$(echo ${FILE##*/})
 done
 
 echo "All done!"
