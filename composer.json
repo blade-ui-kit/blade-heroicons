@@ -1,11 +1,7 @@
 {
     "name": "blade-ui-kit/blade-heroicons",
     "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
-    "keywords": [
-        "Blade",
-        "Heroicons",
-        "Laravel"
-    ],
+    "keywords": ["Blade", "Heroicons", "Laravel"],
     "homepage": "https://github.com/blade-ui-kit/blade-heroicons",
     "license": "MIT",
     "authors": [
@@ -18,7 +14,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "nothingworks/blade-svg": "dev-next-version",
+        "blade-ui-kit/blade-icons": "^0.4.0",
         "illuminate/support": "^7.14"
     },
     "require-dev": {
