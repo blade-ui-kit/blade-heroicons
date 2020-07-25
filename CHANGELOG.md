@@ -3,7 +3,7 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.1.2...master)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.1.2...main)
 
 
 ## [0.1.2 (2020-07-09)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.1.1...0.1.2)
