@@ -40,7 +40,7 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 
 ## Usage
 
-Icons can be used a self-closing Blade components which will be compiled to SVG icons:
+Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
 <x-heroicon-o-adjustments/>
