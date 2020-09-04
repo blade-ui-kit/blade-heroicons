@@ -3,7 +3,13 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.1...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.2...main)
+
+
+## [0.2.2 (2020-09-04)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.1...0.2.2)
+
+### Added
+- Add Laravel 8 support ([#6](https://github.com/blade-ui-kit/blade-heroicons/pull/6))
 
 
 ## [0.2.1 (2020-08-11)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.0...0.2.1)
