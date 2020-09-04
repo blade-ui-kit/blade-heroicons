@@ -14,12 +14,12 @@
     ],
     "require": {
         "php": "^7.2",
-        "blade-ui-kit/blade-icons": "^0.4.0",
-        "illuminate/support": "^7.14"
+        "blade-ui-kit/blade-icons": "^0.4.5",
+        "illuminate/support": "^7.14|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
-        "orchestra/testbench": "^5.0",
+        "orchestra/testbench": "^5.0|^6.0",
         "phpunit/phpunit": "^8.0|^9.0"
     },
     "autoload": {
