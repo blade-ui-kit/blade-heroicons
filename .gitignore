@@ -1,3 +1,4 @@
+dist/
 composer.lock
 phpunit.xml
 vendor
