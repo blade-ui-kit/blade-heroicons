@@ -19,7 +19,7 @@
 
 A package to easily make use of [Heroicons](https://github.com/refactoringui/heroicons) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](resources/svg) or preview them at [heroicons.dev](https://heroicons.dev). Heroicons are originally developed by [Steve Schoger](https://twitter.com/steveschoger) and [Adam Wathan](https://twitter.com/adamwathan).
+For a full list of available icons see [the SVG directory](resources/svg) or preview them at [heroicons.com](https://heroicons.com/). Heroicons are originally developed by [Steve Schoger](https://twitter.com/steveschoger) and [Adam Wathan](https://twitter.com/adamwathan).
 
 *Join the Discord server: https://discord.gg/Vev5CyE*
 
