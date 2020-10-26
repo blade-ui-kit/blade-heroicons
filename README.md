@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/packagist/v/blade-ui-kit/blade-heroicons" alt="Latest Stable Version">
 </a>
 <a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons">
-    <img src="https://img.shields.io/packagist/l/blade-ui-kit/blade-heroicons" alt="Total Downloads">
+    <img src="https://img.shields.io/packagist/dt/blade-ui-kit/blade-heroicons" alt="Total Downloads">
 </a>
 
 A package to easily make use of [Heroicons](https://github.com/refactoringui/heroicons) in your Laravel Blade views.
