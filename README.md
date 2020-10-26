@@ -11,10 +11,10 @@
     <img src="https://github.com/blade-ui-kit/blade-heroicons/workflows/Code%20Style/badge.svg" alt="Code Style">
 </a>
 <a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons">
-    <img src="https://poser.pugx.org/blade-ui-kit/blade-heroicons/v/stable.svg" alt="Latest Stable Version">
+    <img src="https://img.shields.io/packagist/v/blade-ui-kit/blade-heroicons" alt="Latest Stable Version">
 </a>
 <a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons">
-    <img src="https://poser.pugx.org/blade-ui-kit/blade-heroicons/d/total.svg" alt="Total Downloads">
+    <img src="https://img.shields.io/packagist/l/blade-ui-kit/blade-heroicons" alt="Total Downloads">
 </a>
 
 A package to easily make use of [Heroicons](https://github.com/refactoringui/heroicons) in your Laravel Blade views.
