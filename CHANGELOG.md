@@ -3,7 +3,19 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.2...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.3.0...main)
+
+
+## [0.3.0 (2020-10-31)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.2...0.3.0)
+
+### Added
+- PHP 8 Support ([d8c443b](https://github.com/blade-ui-kit/blade-heroicons/commit/d8c443b810670924c04125f5192808d3e5a4b0ac))
+
+### Changed
+- Bump Blade Icons to 0.5.0 ([0df58f5](https://github.com/blade-ui-kit/blade-heroicons/commit/0df58f54cc99f0417b3e5b003ebbf775ce261d0e))
+
+### Removed
+- Drop PHP 7.2 support ([0b7b8f2](https://github.com/blade-ui-kit/blade-heroicons/commit/0b7b8f2f8d4505b5e3ec4c62b3610c8c8188c556))
 
 
 ## [0.2.2 (2020-09-04)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.1...0.2.2)
