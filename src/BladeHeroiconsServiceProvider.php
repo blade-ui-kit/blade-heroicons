@@ -13,7 +13,7 @@ final class BladeHeroiconsServiceProvider extends ServiceProvider
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
             $factory->add('heroicons', [
-                'path' => __DIR__ . '/../resources/svg',
+                'path' => __DIR__.'/../resources/svg',
                 'prefix' => 'heroicon',
             ]);
         });
@@ -23,7 +23,7 @@ final class BladeHeroiconsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../resources/svg' => public_path('vendor/blade-heroicons'),
+                __DIR__.'/../resources/svg' => public_path('vendor/blade-heroicons'),
             ], 'blade-heroicons');
         }
     }
