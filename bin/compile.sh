@@ -3,7 +3,7 @@
 set -e
 
 DIRECTORY=$(cd `dirname $0` && pwd)
-DIST=$DIRECTORY/../dist
+DIST=$DIRECTORY/../dist/optimized
 RESOURCES=$DIRECTORY/../resources/svg
 
 echo "Compiling outline icons..."
