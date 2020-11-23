@@ -3,7 +3,13 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.3.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.3.1...main)
+
+
+## [0.3.1 (2020-11-23)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.3.0...0.3.1)
+
+### Added
+- Upgrade to HeroIcons v0.4.2 ([#13](https://github.com/blade-ui-kit/blade-heroicons/pull/13))
 
 
 ## [0.3.0 (2020-10-31)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.2.2...0.3.0)
