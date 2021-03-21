@@ -3,7 +3,15 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/0.3.1...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.0.0...main)
+
+
+## [1.0.0 (2021-03-21)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.3.1...1.0.0)
+
+### Changed
+- Drop PHP 7.3 support ([f19a768](https://github.com/blade-ui-kit/blade-heroicons/commit/f19a768562eb9727145e968de1003af2be4f9e32))
+- Drop Laravel 7 support ([e735a6b](https://github.com/blade-ui-kit/blade-heroicons/commit/e735a6ba0ee3cbb9a17f8eeb6ae2ce88744c2a66))
+- Require Blade Icons 1.0 ([c2cb6bb](https://github.com/blade-ui-kit/blade-heroicons/commit/c2cb6bb5b42df54921658df402b6df7654660448))
 
 
 ## [0.3.1 (2020-11-23)](https://github.com/blade-ui-kit/blade-heroicons/compare/0.3.0...0.3.1)
