@@ -4,6 +4,16 @@ General steps for every update:
 
 - Run `php artisan view:clear`
 
+## Upgrading from 0.3.1 to 1.0.0
+
+### Minimum Requirements
+
+The package now requires as a minimum:
+
+- PHP 7.3
+- Laravel 8.0
+- Blade Icons 1.0
+
 ## Upgrading from Blade Icons
 
 If you're upgrading from the original Blade Icons package there's very little steps you would need to take. The syntax for the Blade components has remained the same.
