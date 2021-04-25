@@ -38,6 +38,10 @@ composer require blade-ui-kit/blade-heroicons
 
 Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 
+## Blade Icons
+
+Blade Heroicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
+
 ## Usage
 
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
@@ -77,10 +81,6 @@ Then use them in your views like:
 ```blade
 <img src="{{ asset('vendor/blade-heroicons/o-adjustments.svg') }}" width="10" height="10"/>
 ```
-
-### Blade Icons
-
-Blade Heroicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality.
 
 ## Changelog
 
