@@ -17,10 +17,7 @@ final class BladeHeroiconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-heroicons', []);
 
-            $factory->add('heroicons', array_merge([
-                'path' => __DIR__.'/../resources/svg',
-                'prefix' => 'heroicon',
-            ], $config));
+            $factory->add('heroicons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
     }
 
