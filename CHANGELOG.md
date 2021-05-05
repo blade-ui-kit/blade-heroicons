@@ -3,10 +3,16 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.1.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.2.0...main)
 
 
-## [1.1.0 (2021-04-25)](https://github.com/blade-ui-kit/blade-heroicons/compare/1.0.1...1.1.0)
+## [1.2.0 (2021-05-05)](https://github.com/blade-ui-kit/blade-heroicons/compare/v1.1.0...1.2.0)
+
+### Added
+- Config file (https://github.com/blade-ui-kit/blade-heroicons/pull/18)
+
+
+## [1.1.0 (2021-04-25)](https://github.com/blade-ui-kit/blade-heroicons/compare/1.0.1...v1.1.0)
 
 ### Added
 - Add new icons from Heroicons v1.0.1 ([ef28bdb](https://github.com/blade-ui-kit/blade-heroicons/commit/ef28bdb983abd3680e59c52a0b2926a21bd7e1e5))
