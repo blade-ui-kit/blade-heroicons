@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use BladeUI\Icons\Console\GenerateCommandBuilder;
+use BladeUI\Icons\Console\IconSetConfig;
+
+GenerateCommandBuilder::create('blade-heroicons')
+    ->fromSourceSvgDirectory('/dist/optimized')
+    ->withIconSets([
+        IconSetConfig::create('outline')
+            ->setOutputFilePrefix('o-'),
+        IconSetConfig::create('solid')
+            ->setOutputFilePrefix('s-'),
+    ])
+    ->useSingleIconSet()
+    ->run();
