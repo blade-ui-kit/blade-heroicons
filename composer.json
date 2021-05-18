@@ -10,24 +10,20 @@
             "homepage": "https://driesvints.com"
         }
     ],
+    "repositories": [
+        {
+        "type": "vcs",
+        "url": "https://github.com/mallardduck/blade-icons"
+        }
+    ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4|^8.0",
         "blade-ui-kit/blade-icons": "dev-abstract-generator-command",
         "illuminate/support": "^8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.0"
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
-            ]
-        }
     },
     "autoload": {
         "psr-4": {
@@ -39,12 +35,16 @@
             "Tests\\": "tests"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/mallardduck/blade-icons"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+            ]
         }
-    ],
+    },
+    "config": {
+        "sort-packages": true
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
