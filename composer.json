@@ -12,13 +12,13 @@
     ],
     "repositories": [
         {
-        "type": "vcs",
-        "url": "https://github.com/mallardduck/blade-icons"
+            "type": "path",
+            "url": "../blade-icons"
         }
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "blade-ui-kit/blade-icons": "dev-abstract-generator-command",
+        "blade-ui-kit/blade-icons": "^1.0",
         "illuminate/support": "^8.0"
     },
     "require-dev": {

@@ -3,11 +3,12 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use BladeUI\Icons\Console\GenerateCommandBuilder;
-use BladeUI\Icons\Console\IconSetConfig;
+use BladeUI\Icons\Generation\IconGenerator;
+use BladeUI\Icons\Generation\IconSetConfig;
 
-GenerateCommandBuilder::create('blade-heroicons')
-    ->fromSourceSvgDirectory('/dist/optimized')
+IconGenerator::create('blade-heroicons')
+    ->fromNPM('heroicons')
+    ->directory('/')
     ->withIconSets([
         IconSetConfig::create('outline')
             ->setOutputFilePrefix('o-'),
