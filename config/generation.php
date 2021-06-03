@@ -1,12 +1,9 @@
-#!/usr/bin/env php
 <?php
-
-require __DIR__ . '/../vendor/autoload.php';
 
 use BladeUI\Icons\Generation\IconGenerator;
 use BladeUI\Icons\Generation\IconSetConfig;
 
-IconGenerator::create('blade-heroicons')
+return IconGenerator::create('blade-heroicons')
     ->fromNPM('heroicons')
     ->directory('/')
     ->withIconSets([
@@ -15,5 +12,4 @@ IconGenerator::create('blade-heroicons')
         IconSetConfig::create('solid')
             ->setOutputFilePrefix('s-'),
     ])
-    ->useSingleIconSet()
-    ->run();
+    ->useSingleIconSet();

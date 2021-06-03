@@ -48,6 +48,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "generate": "./bin/generate"
+        "generate": "./vendor/bin/blade-icons-generate"
     }
 }
