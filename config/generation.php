@@ -1,15 +1,16 @@
 <?php
 
-use BladeUI\Icons\Generation\IconGenerator;
-use BladeUI\Icons\Generation\IconSetConfig;
-
-return IconGenerator::create('blade-heroicons')
-    ->fromNPM('heroicons')
-    ->directory('/')
-    ->withIconSets([
-        IconSetConfig::create('outline')
-            ->setOutputFilePrefix('o-'),
-        IconSetConfig::create('solid')
-            ->setOutputFilePrefix('s-'),
-    ])
-    ->useSingleIconSet();
+return [
+    [
+        'source' => __DIR__.'/../node_modules/heroicons/outline',
+        'destination' => __DIR__.'/../resources/svg',
+        'output-prefix' => 'o-',
+        'safe' => true,
+    ],
+    [
+        'source' => __DIR__.'/../node_modules/heroicons/solid',
+        'destination' => __DIR__.'/../resources/svg',
+        'output-prefix' => 's-',
+        'safe' => true,
+    ],
+];
