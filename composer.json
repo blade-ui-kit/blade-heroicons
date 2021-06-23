@@ -42,9 +42,6 @@
             ]
         }
     },
-    "scripts": {
-        "generate": "./vendor/bin/blade-icons-generate"
-    },
     "config": {
         "sort-packages": true
     },
