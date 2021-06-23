@@ -42,12 +42,12 @@
             ]
         }
     },
+    "scripts": {
+        "generate": "./vendor/bin/blade-icons-generate"
+    },
     "config": {
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "generate": "./vendor/bin/blade-icons-generate"
-    }
+    "prefer-stable": true
 }
