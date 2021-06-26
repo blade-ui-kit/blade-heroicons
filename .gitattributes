@@ -2,6 +2,7 @@
 
 /.github export-ignore
 /bin export-ignore
+/config/generation.php export-ignore
 /dist export-ignore
 /tests export-ignore
 .gitattributes export-ignore
