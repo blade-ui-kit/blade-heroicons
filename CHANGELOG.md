@@ -3,7 +3,13 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.2.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.2.1...main)
+
+
+## [1.2.1 (2021-12-05)](https://github.com/blade-ui-kit/blade-heroicons/compare/v1.2.0...1.2.1)
+
+### Changed
+- Updated icons ([dfe5818](https://github.com/blade-ui-kit/blade-heroicons/commit/dfe58183ed05926ff082585de47f399dca36fa66))
 
 
 ## [1.2.0 (2021-05-05)](https://github.com/blade-ui-kit/blade-heroicons/compare/v1.1.0...1.2.0)
