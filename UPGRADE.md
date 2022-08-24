@@ -4,7 +4,22 @@ General steps for every update:
 
 - Run `php artisan view:clear`
 
-## Upgrading from 0.3.1 to 1.0.0
+## Upgrading from 1.x to 2.0
+
+### Minimum Requirements
+
+The package now requires as a minimum:
+
+- PHP 8.0
+- Laravel 9.0
+
+### Heroicons v2.0
+
+PR: https://github.com/blade-ui-kit/blade-heroicons/pull/28
+
+The shipped Heroicons are upgraded to the new v2 version. You should adjust any icon that was removed or renamed. While it's impossible to list all removed and renamed icons, it should become fairly obvious because Blade Icons will warn you with an exception when you try to generate an icon that doesn't exist anymore. You could also review all icons in the above PR.
+
+## Upgrading from 0.3.1 to 1.0
 
 ### Minimum Requirements
 
