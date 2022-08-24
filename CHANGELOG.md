@@ -2,7 +2,17 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.3.1...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.0.0...main)
+
+## [2.0.0](https://github.com/blade-ui-kit/blade-heroicons/compare/1.3.1...2.0.0) - 2022-08-24
+
+### Changed
+
+- Update heroicons v2 by @duongtdvn in https://github.com/blade-ui-kit/blade-heroicons/pull/28
+
+### Removed
+
+- Drop PHP 7.4 and Laravel 8 by @driesvints in https://github.com/blade-ui-kit/blade-heroicons/pull/29
 
 ## [1.3.1](https://github.com/blade-ui-kit/blade-heroicons/compare/1.3.0...1.3.1) - 2022-03-02
 
