@@ -68,6 +68,12 @@ And even use inline styles:
 <x-heroicon-o-arrow-left style="color: #555"/>
 ```
 
+Or use the `@svg` directive:
+
+```blade
+@svg('heroicon-o-arrow-left', 'w-6 h-6', ['style' => 'color: #555'])
+```
+
 The solid icons can be referenced like this:
 
 ```blade
