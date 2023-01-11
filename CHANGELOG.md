@@ -2,7 +2,13 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.0.5...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.1.0...main)
+
+## [2.1.0](https://github.com/blade-ui-kit/blade-heroicons/compare/2.0.5...2.1.0) - 2023-01-11
+
+### Added
+
+- Laravel v10 Support by @driesvints in https://github.com/blade-ui-kit/blade-heroicons/pull/35
 
 ## [2.0.5](https://github.com/blade-ui-kit/blade-heroicons/compare/2.0.4...2.0.5) - 2022-11-02
 
