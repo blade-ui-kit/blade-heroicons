@@ -13,10 +13,10 @@
     "require": {
         "php": "^8.0",
         "blade-ui-kit/blade-icons": "^1.1",
-        "illuminate/support": "^9.0"
+        "illuminate/support": "^9.0|^10.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.0",
+        "orchestra/testbench": "^7.0|^8.0",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
