@@ -8,6 +8,10 @@
         {
             "type": "github",
             "url": "https://github.com/sponsors/driesvints"
+        },
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.com/paypalme/driesvints"
         }
     ],
     "authors": [
