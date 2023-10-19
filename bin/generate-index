@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+
+$phps = <<<EOTXT
+<?php
+
+namespace BladeUI\Heroicons;
+
+final class Icon
+{
+
+EOTXT;
+
+foreach (glob(__DIR__ . '/../resources/svg/*.svg') as $item) {
+    $filename = explode('.', basename($item))[0];
+    $phps .= sprintf(
+        "    public const %s = '%s';\r\n",
+        strtoupper(str_replace('-', '_', $filename)),
+        $filename
+    );
+}
+
+$phps .= "}\r\n";
+
+file_put_contents(__DIR__ . '/../src/Icon.php', $phps);
+

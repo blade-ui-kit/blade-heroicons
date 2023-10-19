@@ -53,6 +53,35 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
+    /**
+     * @test
+     * @dataProvider exisitingIconsDataProvider
+     */
+    public function it_has_all_icons_indexed($iconFileName)
+    {
+        $constantName = \strtoupper(\str_replace('-', '_', $iconFileName));
+        $this->assertTrue(
+            \defined($constant = '\\BladeUI\\Heroicons\\Icon::' . $constantName),
+            "Missing constant '$constant'"
+        );
+        $this->assertEquals(
+            $iconFileName,
+            constant($constant),
+            "Invalid value for '$constant'"
+        );
+    }
+
+    public function exisitingIconsDataProvider(): array
+    {
+        $icons = \array_map(
+            function ($item){ 
+                return [\explode('.', \basename($item))[0]];
+            },
+            \glob(__DIR__ . '/../resources/svg/*.svg')
+        );
+        return $icons;
+    }
+
     protected function getPackageProviders($app)
     {
         return [
