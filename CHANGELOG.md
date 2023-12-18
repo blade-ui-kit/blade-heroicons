@@ -2,7 +2,11 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.1.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.2.0...main)
+
+## [2.2.0](https://github.com/blade-ui-kit/blade-heroicons/compare/2.1.0...2.2.0) - 2023-12-18
+
+* Heroicons v2.1 by [@driesvints](https://github.com/driesvints) in https://github.com/blade-ui-kit/blade-heroicons/pull/41
 
 ## [2.1.0](https://github.com/blade-ui-kit/blade-heroicons/compare/2.0.5...2.1.0) - 2023-01-11
 
