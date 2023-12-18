@@ -86,6 +86,12 @@ The mini icons can be referenced like this:
 <x-heroicon-m-arrow-left/>
 ```
 
+And the micro icons can be referenced like this:
+
+```blade
+<x-heroicon-c-arrow-left/>
+```
+
 ### Raw SVG Icons
 
 If you want to use the raw SVG icons as assets, you can publish them using:
