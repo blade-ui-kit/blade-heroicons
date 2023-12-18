@@ -2,7 +2,11 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.2.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.2.1...main)
+
+## [2.2.1](https://github.com/blade-ui-kit/blade-heroicons/compare/2.2.0...2.2.1) - 2023-12-18
+
+* Fix chevron icons by [@driesvints](https://github.com/driesvints) in https://github.com/blade-ui-kit/blade-heroicons/pull/42
 
 ## [2.2.0](https://github.com/blade-ui-kit/blade-heroicons/compare/2.1.0...2.2.0) - 2023-12-18
 
