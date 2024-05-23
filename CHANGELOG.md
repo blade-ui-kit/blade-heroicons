@@ -2,7 +2,11 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.4.0...1.x)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.5.0...1.x)
+
+## [1.5.0](https://github.com/blade-ui-kit/blade-heroicons/compare/1.4.0...1.5.0) - 2024-05-23
+
+* Support Laravel 11 by [@MaxGiting](https://github.com/MaxGiting) in https://github.com/blade-ui-kit/blade-heroicons/pull/48
 
 ## [1.4.0](https://github.com/blade-ui-kit/blade-heroicons/compare/1.3.0...1.4.0) - 2023-01-25
 
