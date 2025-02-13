@@ -2,7 +2,11 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.5.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/2.6.0...main)
+
+## [2.6.0](https://github.com/blade-ui-kit/blade-heroicons/compare/2.5.0...2.6.0) - 2025-02-13
+
+* Laravel v12 support by [@driesvints](https://github.com/driesvints) in https://github.com/blade-ui-kit/blade-heroicons/pull/51
 
 ## [2.5.0](https://github.com/blade-ui-kit/blade-heroicons/compare/2.4.0...2.5.0) - 2024-11-18
 
