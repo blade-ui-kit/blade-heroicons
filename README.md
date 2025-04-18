@@ -1,14 +1,14 @@
 <p align="center">
-    <img src="https://github.com/blade-ui-kit/art/blob/main/socialcard-blade-heroicons.png" width="1280" title="Social Card Blade UI Kit">
+    <img src="https://github.com/driesvints/blade-heroicons/blob/main/art/socialcard-blade-heroicons.png" width="1280" title="Social Card Blade UI Kit">
 </p>
 
 # Blade Heroicons
 
-<a href="https://github.com/blade-ui-kit/blade-heroicons/actions?query=workflow%3ATests">
-    <img src="https://github.com/blade-ui-kit/blade-heroicons/workflows/Tests/badge.svg" alt="Tests">
+<a href="https://github.com/driesvints/blade-heroicons/actions?query=workflow%3ATests">
+    <img src="https://github.com/driesvints/blade-heroicons/workflows/Tests/badge.svg" alt="Tests">
 </a>
-<a href="https://github.com/blade-ui-kit/blade-heroicons/actions/workflows/coding-standards.yml">
-    <img src="https://github.com/blade-ui-kit/blade-heroicons/actions/workflows/coding-standards.yml/badge.svg" alt="Coding Standards" />
+<a href="https://github.com/driesvints/blade-heroicons/actions/workflows/coding-standards.yml">
+    <img src="https://github.com/driesvints/blade-heroicons/actions/workflows/coding-standards.yml/badge.svg" alt="Coding Standards" />
 </a>
 <a href="https://packagist.org/packages/blade-ui-kit/blade-heroicons">
     <img src="https://img.shields.io/packagist/v/blade-ui-kit/blade-heroicons" alt="Latest Stable Version">
@@ -38,7 +38,7 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 
 ## Blade Icons
 
-Blade Heroicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
+Blade Heroicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/driesvints/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/driesvints/blade-icons#caching) with this library.
 
 ## Configuration
 
