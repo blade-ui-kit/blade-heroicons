@@ -1,6 +1,7 @@
 * text=auto
 
 /.github export-ignore
+/art export-ignore
 /bin export-ignore
 /config/generation.php export-ignore
 /dist export-ignore
